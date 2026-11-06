@@ -23,12 +23,19 @@ foreignObject {
 
 h2 {
   margin-top: 0;
-  margin-bottom: 0.75em;
+  margin-bottom: 4px;
   line-height: 20px;
   font-size: 14px;
   font-weight: 600;
   color: rgb(72, 148, 224);
   fill: rgb(72, 148, 224);
+}
+
+.method {
+  margin: 0 0 12px;
+  font-size: 9px;
+  line-height: 14px;
+  color: rgb(145, 145, 145);
 }
 
 ul {
@@ -111,16 +118,17 @@ div.ellipsis {
 <div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
 
 <h2>Most Used Languages</h2>
+<p class="method">Top 10 share · Equal weight per repository</p>
 
 <div>
 <span class="progress">
-<span style="background-color:#b07219;width:87.18240%;" class="progress-item"></span><span style="background-color:#f1e05a;width:5.35700%;" class="progress-item"></span><span style="background-color:#e34c26;width:3.66485%;" class="progress-item"></span><span style="background-color:#3572A5;width:1.99118%;" class="progress-item"></span><span style="background-color:#563d7c;width:1.11164%;" class="progress-item"></span><span style="background-color:#8b949e;width:0.69293%;" class="progress-item"></span>
+<span style="background-color:#3178c6;width:27.47322%;" class="progress-item"></span><span style="background-color:#b07219;width:26.50659%;" class="progress-item"></span><span style="background-color:#f1e05a;width:20.56283%;" class="progress-item"></span><span style="background-color:#3572A5;width:8.88804%;" class="progress-item"></span><span style="background-color:#41b883;width:4.83713%;" class="progress-item"></span><span style="background-color:#563d7c;width:3.82734%;" class="progress-item"></span><span style="background-color:#e34c26;width:3.56298%;" class="progress-item"></span><span style="background-color:#89e051;width:1.93763%;" class="progress-item"></span><span style="background-color:#8b949e;width:1.23966%;" class="progress-item"></span><span style="background-color:#c6538c;width:1.16458%;" class="progress-item"></span>
 </span>
 </div>
 
 <ul>
 
-<li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#b07219"/></svg><span class="lang">Java</span><span class="percent">87.18%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#f1e05a"/></svg><span class="lang">JavaScript</span><span class="percent">5.36%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#e34c26"/></svg><span class="lang">HTML</span><span class="percent">3.66%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#3572A5"/></svg><span class="lang">Python</span><span class="percent">1.99%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#563d7c"/></svg><span class="lang">CSS</span><span class="percent">1.11%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#8b949e"/></svg><span class="lang">Other</span><span class="percent">0.69%</span></li>
+<li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#3178c6"/></svg><span class="lang" title="TypeScript">TypeScript</span><span class="percent">27.47%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#b07219"/></svg><span class="lang" title="Java">Java</span><span class="percent">26.51%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#f1e05a"/></svg><span class="lang" title="JavaScript">JavaScript</span><span class="percent">20.56%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#3572A5"/></svg><span class="lang" title="Python">Python</span><span class="percent">8.89%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#41b883"/></svg><span class="lang" title="Vue">Vue</span><span class="percent">4.84%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#563d7c"/></svg><span class="lang" title="CSS">CSS</span><span class="percent">3.83%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#e34c26"/></svg><span class="lang" title="HTML">HTML</span><span class="percent">3.56%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#89e051"/></svg><span class="lang" title="Shell">Shell</span><span class="percent">1.94%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#8b949e"/></svg><span class="lang" title="ASP">ASP</span><span class="percent">1.24%</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="octicon"><circle cx="8" cy="8" r="4" fill="#c6538c"/></svg><span class="lang" title="SCSS">SCSS</span><span class="percent">1.16%</span></li>
 
 </ul>
 
